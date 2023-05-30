@@ -1,0 +1,670 @@
+* {
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+    .container span a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+.container img {
+    cursor: pointer;
+}
+
+.logo {
+    width: 240px;
+}
+
+.btns img {
+    margin: 0 30px;
+}
+
+.header-btn {
+    height: 45px;
+    transition: 0.3s;
+}
+
+.header-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #000000;
+}
+.header-item:hover{
+    color: #D60000;
+    transition: 0.3s;
+}
+.header-btn:hover{
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+/* Main Text */
+.main-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Reem Kufi Fun';
+}
+
+ul.breadcrumb {
+    padding: 41px 0 0 0;
+    list-style: none;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+ul.breadcrumb li+li:before {
+    color: black;
+    content: "/\00a0";
+    font-size: 24px;
+    letter-spacing: 0.05em;
+
+}
+
+ul.breadcrumb li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+
+}
+
+ul.breadcrumb li a:hover {
+    color: #D60000;
+    text-decoration: underline;
+}
+
+.main-text h3 {
+    padding-top: 41px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: -0.0175em;
+}
+
+.main-text p {
+
+    max-width: 1346px;
+    padding-top: 49px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+}
+
+p#main-redakt {
+    padding-top: 18px;
+}
+
+/* Osnovnoy Body */
+.slider-container {
+    max-width: 561px;
+    max-height: 855px;
+}
+
+.swiper-slide img {
+    display: block;
+    height: 1035px;
+    width: 100%;
+    float: none;
+}
+
+.swiper-knopochkas {
+    display: flex;
+    justify-content: space-between;
+    float: none;
+    position: relative;
+    top: 275px;
+    margin: 0;
+    z-index: 2;
+
+
+}
+
+.swiper-knopochka {
+    transition: .2s;
+    padding: 5px 5px;
+}
+
+.swiper-knopochka:hover {
+    cursor: pointer;
+    transform: scale(.9);
+}
+
+.swiper-knopochkas img {
+    width: 35px;
+}
+
+.review-container {
+    margin: 0 0 29px 0;
+    max-height: 855px;
+
+}
+
+.swiper {
+    max-height: 490px;
+}
+
+.mySwiper {
+    max-height: 917px;
+
+}
+
+.review-card {
+    max-width: 560px;
+    max-height: 860px;
+    margin: 0 auto;
+    display: block;
+    width: 83vw;
+    height: auto;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.block-of-blocks {
+    display: flex;
+    max-width: 561px;
+    height: 859px;
+
+}
+
+.prev {
+    position: absolute;
+    bottom: 400px;
+    left: 0px;
+    z-index: 2;
+}
+
+.next {
+    position: absolute;
+    bottom: 400px;
+    right: 0px;
+    z-index: 2;
+}
+
+.block {
+
+    width: 560px;
+    height: 856px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vnutri {
+    display: flex;
+    height: 352px;
+    max-width: 352px;
+
+}
+
+.vnutri img {
+    float: right;
+    width: 560.49px;
+    height: 855px;
+}
+
+.vnutri-info img {
+    height: 855px;
+    max-width: 475px;
+}
+
+.verh {
+    display: flex;
+    height: 50px;
+
+}
+
+.review-card p {
+    display: block;
+    margin: 0 auto;
+    width: 950px;
+}
+
+.main-info {
+    padding-top: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-text {
+    padding-right: 71px;
+}
+
+.info-text-cena p {
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.15em;
+}
+
+.info-text-cena span {
+    color: #D60000;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+
+.info-text-harakteristiki {
+    display: flex;
+}
+
+.info-text-harakteristiki-1 {
+    max-width: 319px;
+}
+
+.info-text-harakteristiki-1 span {
+    color: #929292;
+    font-size: 24px;
+    letter-spacing: 0.055em;
+}
+
+.info-text-harakteristiki-1 p {
+    color: #D60000;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.055em;
+}
+
+.info-text-harakteristiki-edit {
+    padding-top: 32px;
+}
+
+.info-text-harakteristiki-2 {
+    padding-left: 44px;
+}
+
+/* Main Отзывы */
+.main-otzivi {
+    max-height: 409px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-otzivi-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 1040px;
+    width: 100%;
+}
+
+.main-otzivi-text-h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.main-otzivi-text-otziv-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1040px;
+    padding-top: 53px;
+}
+
+.main-otzivi-text-otziv-1-rating p {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.main-otzivi-text-otziv-1-rating span {
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #929292;
+}
+
+.otstup {
+    padding-top: 10px;
+}
+
+.main-otzivi-text-otziv-1-text {
+    max-width: 700px;
+}
+
+.main-otzivi-text-otziv-1-text p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.main-otzivi-text-otziv-2 {
+    display: flex;
+}
+
+.main-otzivi-raiting {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    padding-right: 113px;
+}
+
+.main-otzivi-raiting p {
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+}
+
+.main-otzivi-raiting span {
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 144px;
+    letter-spacing: 0.05em;
+}
+
+
+/* FOOOTER */
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    border-top: 1px solid black;
+    height: 167px;
+}
+
+.puf {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    align-items: center;
+    max-width: 616px;
+    width: 100%;
+}
+
+.puf span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.105em;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    max-width: 249px;
+    width: 100%;
+}
+
+.paf {
+    display: flex;
+    max-width: 616px;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 477px;
+    margin-right: 7.2%;
+}
+
+.adres {
+    display: flex;
+    flex-direction: column;
+    max-width: 210px;
+    max-height: 89px;
+    text-align: left;
+    justify-content: flex-start;
+    line-height: 30px;
+}
+
+.adres span {
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.adres a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+span#sihik {
+    color: #D60000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.105em;
+}
+
+a#nomerok {
+    letter-spacing: 0.27em;
+}
+
+/* KONEC FOOOTER */
+
+@media screen and (max-width:1260px) {
+    .block-of-blocks {
+        flex-direction: column;
+    }
+
+    .block {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    .main-text {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block-of-blocks-bluda {
+        height: 2330px;
+        padding-top: 25px;
+        margin: 12px 25px;
+    }
+
+    .main-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-text {
+        align-items: center;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-text-cena {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+
+    }
+
+    .info-text-harakteristiki-edit {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info-text-harakteristiki-1 p {
+        text-align: center;
+    }
+
+    .main-otzivi {
+        padding-top: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: fit-content;
+    }
+
+    .main-otzivi-text {
+        order: 2;
+    }
+
+    .main-otzivi-text-otziv-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-otzivi-text p {
+        text-align: center;
+    }
+
+    .main-otzivi-text-otziv-1-rating {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-otzivi-text-otziv-1-rating p {
+        padding: 5px 0;
+    }
+
+    .main-otzivi-text-otziv-1-rating img {
+        padding: 5px 0;
+    }
+
+    .main-otzivi-raiting {
+        padding: 0;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:783px) {
+    .prev {
+        display: none;
+    }
+    .next{
+        display: none;
+    }
+    .vnutri img {
+        width: 168px;
+        height: 457px;
+    }
+
+    .vnutri-info img {
+        height: 457px;
+    }
+
+    .block {
+        height: 479px;
+    }
+
+    .block-of-blocks {
+        height: 479px;
+    }
+
+    .container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+
+    .container img {
+        padding-top: 25px;
+    }
+
+    .header-item {
+        margin: 10px 0;
+    }
+
+    .btns img {
+        margin: 0px 25px 0px 45px;
+    }
+    .info-text-harakteristiki-2 {
+        padding: 0;
+    }
+
+    /* footer */
+    .container-footer {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .puf {
+        flex-direction: column;
+        align-items: center;
+        margin: 5px 0px;
+    }
+
+    .puf span {
+        margin-bottom: 10px;
+
+    }
+
+    .paf {
+        flex-direction: column;
+        align-items: center;
+        margin: 5px 0px;
+
+    }
+
+    .adres {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .adres span {
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .btns img {
+        margin: 0;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .container-footer {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    .puf {
+        margin: 0;
+        max-width: 616px;
+
+    }
+
+    .paf {
+        max-width: 616px;
+        margin: 0;
+    }
+
+    .icon {
+        max-width: 210px;
+    }
+
+
+}
